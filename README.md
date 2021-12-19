@@ -1,1 +1,1 @@
-# LeetCode_study
+# Leetcode刷題練習
