@@ -1,4 +1,4 @@
 <h1>輸出</h1>
-<a>假如s和pattern長度不同那就不會是True，因此return False</a>
+<a>1.假如s和pattern長度不同那就不會是True，因此return False</a>
 </br>
 <a>2.建立比對表，之後一一做比對，如果不同鍵但同值的狀況回傳False</a>
