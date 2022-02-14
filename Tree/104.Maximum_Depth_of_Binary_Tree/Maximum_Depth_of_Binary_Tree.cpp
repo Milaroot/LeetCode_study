@@ -16,8 +16,8 @@ public:
         if(root != nullptr){
             curr += 1;
             mx = max(mx, curr);
-            if(root->left != nullptr) dfs(root->left, curr);
-            if(root->right != nullptr) dfs(root->right, curr);
+            dfs(root->left, curr);
+            dfs(root->right, curr);
         }
     }
     int maxDepth(TreeNode* root) {
