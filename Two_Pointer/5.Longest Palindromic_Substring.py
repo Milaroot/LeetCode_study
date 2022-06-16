@@ -8,7 +8,6 @@ class Solution:
             l = i - 1; r = i
             curr = 0; curr_l = ""
             while(l > -1 and r < len(s)):
-                
                 if s[l] != s[r]:
                     break
                 else:
@@ -24,7 +23,6 @@ class Solution:
             curr_l = s[i]
             curr = 1
             while(l > -1 and r < len(s)):
-                
                 if s[l] != s[r]:
                     break
                 else:
