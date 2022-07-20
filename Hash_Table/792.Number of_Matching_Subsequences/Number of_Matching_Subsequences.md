@@ -33,7 +33,7 @@ Output: 2
 
 我們第一步先將word開頭都丟入一結構儲存
 
-![Untitled](LeetCode_792_Number_of_Matching%20_Subsequences%2043ed72087fc44a90a41e9d160dc77863/Untitled.png)
+![Untitled](pic1.png)
 
 之後跑s的每個字元並將結構中對應的word刪掉開頭並放入新的位置中
 
